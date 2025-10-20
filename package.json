@@ -1,0 +1,27 @@
+{
+  "name": "create-pwa-app",
+  "version": "1.0.0",
+  "description": "Create Progressive Web Apps that build to standalone mobile applications",
+  "main": "create-pwa-app.js",
+  "bin": {
+    "create-pwa-app": "./create-pwa-app.js"
+  },
+  "scripts": {
+    "create": "node create-pwa-app.js"
+  },
+  "keywords": [
+    "pwa",
+    "progressive-web-app",
+    "android",
+    "apk",
+    "capacitor",
+    "mobile",
+    "app-builder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pwa-builder"
+  }
+}

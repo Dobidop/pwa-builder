@@ -1,0 +1,46 @@
+{
+  "appName": "My PWA App",
+  "appId": "com.example.myapp",
+  "appDescription": "A Progressive Web App built with PWA Builder",
+  "version": "1.0.0",
+  "backgroundColor": "#ffffff",
+  "themeColor": "#4CAF50",
+
+  "sourceIcon": "source-icon.png",
+
+  "android": {
+    "minSdkVersion": 22,
+    "targetSdkVersion": 33,
+    "compileSdkVersion": 33,
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true
+  },
+
+  "plugins": {
+    "camera": {
+      "enabled": true,
+      "permissions": ["camera", "photos"]
+    },
+    "notifications": {
+      "enabled": true,
+      "smallIcon": "ic_stat_notification",
+      "iconColor": "#4CAF50",
+      "sound": "notification_sound.wav"
+    }
+  },
+
+  "webDir": "www",
+
+  "filesToCopy": [
+    "index.html",
+    "manifest.json",
+    "sw.js"
+  ],
+
+  "foldersToCopy": [
+    "js",
+    "styles",
+    "icons",
+    "assets"
+  ]
+}

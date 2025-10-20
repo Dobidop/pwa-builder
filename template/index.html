@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="PWA built with PWA Builder">
+    <meta name="theme-color" content="#4CAF50">
+
+    <title>My PWA App</title>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Welcome to Your PWA</h1>
+            <p>Built with PWA Builder</p>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Getting Started</h2>
+                <p>This is a starter template for building Progressive Web Apps that can be converted to standalone mobile applications.</p>
+            </section>
+
+            <section class="features">
+                <h3>Features</h3>
+                <ul>
+                    <li>✅ Fully standalone app (no server required)</li>
+                    <li>✅ Works offline with Service Worker</li>
+                    <li>✅ Builds to Android APK with one command</li>
+                    <li>✅ Camera support (if enabled)</li>
+                    <li>✅ Local notifications (if enabled)</li>
+                    <li>✅ Responsive design</li>
+                </ul>
+            </section>
+
+            <section class="actions">
+                <h3>Quick Actions</h3>
+                <button id="testBtn" class="btn btn-primary">Click Me!</button>
+                <p id="output"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with PWA Builder | <a href="https://github.com" target="_blank">Documentation</a></p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(registration => console.log('SW registered:', registration))
+                .catch(error => console.log('SW registration failed:', error));
+        }
+    </script>
+</body>
+</html>

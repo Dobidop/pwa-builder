@@ -1,0 +1,24 @@
+{
+  "name": "my-pwa-app",
+  "version": "1.0.0",
+  "description": "PWA built with pwa-builder",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "dev": "npm run serve",
+    "generate-icons": "node icon-generator.js",
+    "build": "node build-app.js",
+    "clean": "node build-app.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "typescript": "^5.9.2",
+    "sharp": "^0.33.0"
+  }
+}
