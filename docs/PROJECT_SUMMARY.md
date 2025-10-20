@@ -120,22 +120,22 @@ Working web app included:
 - Example code for buttons, localStorage
 - Clean, modern CSS
 
-## Based on CleanQuest Setup
+## Architecture Overview
 
-This tool extracts and improves the build system from your CleanQuest project:
+This tool uses a proven build system approach:
 
-**From CleanQuest:**
-- `build-clean.js` → Improved to `build-app.js`
-- Capacitor configuration approach
-- Android build process
+**Core Components:**
+- `build-app.js` - Main build orchestration script
+- Capacitor configuration system
+- Android build process automation
 - Plugin integration pattern
 
-**Improvements Made:**
+**Key Features:**
 - Configuration file instead of hardcoded values
 - Automatic icon generation
 - Project creator script
 - Multi-platform support
-- Better error messages
+- Clear error messages
 - Comprehensive documentation
 
 ## Requirements
@@ -250,7 +250,7 @@ You now have a **complete, working PWA builder tool** that:
 - Makes creating standalone mobile apps easy
 - Requires minimal setup and configuration
 - Works with pure web technologies
-- Builds on your proven CleanQuest setup
+- Uses proven, stable build processes
 - Can be used for unlimited projects
 
 Time to build some apps! 🚀
@@ -258,5 +258,5 @@ Time to build some apps! 🚀
 ---
 
 **Created:** 2025
-**Based on:** CleanQuest build system
-**Purpose:** Democratize mobile app development for semi-developers
+**Purpose:** Democratize mobile app development for web developers
+**Technology:** Capacitor + Web technologies

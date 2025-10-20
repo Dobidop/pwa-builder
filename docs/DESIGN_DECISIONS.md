@@ -249,19 +249,19 @@ Should the builder work on Windows, Mac, and Linux?
 - Build script detects platform
 - Auto-finds SDK/Java on common paths for all OS
 - Platform-specific commands (gradlew.bat vs ./gradlew)
-- Tested primarily on Windows (CleanQuest reference)
+- Tested primarily on Windows but designed to be cross-platform
 
 ### Reasoning
-Based on CleanQuest which is Windows-based, but made portable for future users.
+Designed to work across Windows, macOS, and Linux environments.
 
 ---
 
-## Lessons from CleanQuest
+## Key Lessons Learned
 
-Your CleanQuest project taught us:
+Development experience revealed:
 
-1. ✅ **Capacitor works great** for web-to-APK
-2. ✅ **Automation is crucial** (build-clean.js proved this)
+1. ✅ **Capacitor works great** for web-to-APK conversion
+2. ✅ **Automation is crucial** for smooth builds
 3. ✅ **Auto-detection helps** (SDK paths, Java paths)
 4. ✅ **Notifications are complex** (better as opt-in)
 5. ✅ **Config files > hardcoded values**
@@ -292,7 +292,7 @@ Your CleanQuest project taught us:
 1. **Simplicity** - Easy for beginners
 2. **Flexibility** - Powerful for advanced users
 3. **Clarity** - Clear documentation and errors
-4. **Proven tech** - Based on working CleanQuest setup
+4. **Proven tech** - Built on stable, tested technologies
 5. **Reasonable scope** - Builder tool, not framework
 
 **Result:** A tool that does one thing well - turns web apps into APKs.

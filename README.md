@@ -205,7 +205,7 @@ npm install sharp
 
 ## Contributing
 
-This is based on the CleanQuest setup. Feel free to:
+Feel free to:
 - Report issues
 - Suggest improvements
 - Share your projects
@@ -216,7 +216,7 @@ MIT - Free to use for any project!
 
 ## Credits
 
-Built by extracting and improving the build system from CleanQuest.
+A simplified build system for creating Progressive Web Apps that compile to native Android applications.
 
 ---
 

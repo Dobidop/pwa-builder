@@ -52,7 +52,7 @@ Complete documentation for PWA Builder - the tool that transforms web apps into 
    - Architecture details
    - How it works
    - File structure
-   - Based on CleanQuest
+   - Technology stack
 
 7. **[DESIGN_DECISIONS.md](DESIGN_DECISIONS.md)** - Design Philosophy
    - Why plugins are disabled by default

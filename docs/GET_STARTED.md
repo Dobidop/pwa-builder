@@ -278,10 +278,6 @@ If you encounter issues:
 3. Check error messages carefully
 4. Try `npm run clean` and rebuild
 
-## Based on CleanQuest
-
-This tool extracts and improves the build system from your CleanQuest project. It's proven, tested, and works!
-
 ---
 
 ## Ready to Build? 🎯
