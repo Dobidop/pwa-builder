@@ -18,11 +18,11 @@
 
   "plugins": {
     "camera": {
-      "enabled": true,
+      "enabled": false,
       "permissions": ["camera", "photos"]
     },
     "notifications": {
-      "enabled": true,
+      "enabled": false,
       "smallIcon": "ic_stat_notification",
       "iconColor": "#4CAF50",
       "sound": "notification_sound.wav"

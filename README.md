@@ -163,6 +163,19 @@ npm install
 npm run build
 ```
 
+## Documentation
+
+📖 **[Complete Documentation →](docs/)**
+
+**Quick Links:**
+- **[Get Started Guide](docs/GET_STARTED.md)** ⭐ Start here!
+- [Quick Start Tutorial](docs/QUICKSTART.md) - Step-by-step
+- [Code Examples](docs/USAGE_EXAMPLES.md) - Real app examples
+- [Plugins Guide](docs/PLUGINS_GUIDE.md) - Camera & notifications
+- [Testing Checklist](docs/TEST_CHECKLIST.md) - Test your builds
+- [Technical Summary](docs/PROJECT_SUMMARY.md) - How it works
+- [Design Decisions](docs/DESIGN_DECISIONS.md) - Philosophy
+
 ## Tips
 
 1. **Start Simple**: Use the template as-is first, then customize

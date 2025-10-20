@@ -51,25 +51,33 @@ async function takePhoto() {
 }
 
 // Example: Local notification (if notifications plugin is enabled)
+// Note: Notifications require permissions and proper setup
+// See: https://capacitorjs.com/docs/apis/local-notifications
 async function showNotification(title, body) {
     if (window.Capacitor && window.Capacitor.Plugins.LocalNotifications) {
         try {
-            await Capacitor.Plugins.LocalNotifications.schedule({
-                notifications: [
-                    {
+            // Request permission first (required on Android 13+)
+            const permission = await Capacitor.Plugins.LocalNotifications.requestPermissions();
+
+            if (permission.display === 'granted') {
+                await Capacitor.Plugins.LocalNotifications.schedule({
+                    notifications: [{
                         title: title,
                         body: body,
                         id: Date.now(),
                         schedule: { at: new Date(Date.now() + 1000) }
-                    }
-                ]
-            });
-            console.log('Notification scheduled');
+                    }]
+                });
+                console.log('Notification scheduled');
+            } else {
+                console.warn('Notification permission denied');
+            }
         } catch (error) {
-            console.error('Error scheduling notification:', error);
+            console.error('Error with notification:', error);
+            console.log('For notification help, see: https://capacitorjs.com/docs/apis/local-notifications');
         }
     } else {
-        console.warn('Notifications not available');
+        console.warn('Notifications not available - enable in build-config.json');
     }
 }
 
