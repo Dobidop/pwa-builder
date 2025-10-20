@@ -171,15 +171,6 @@ npm run build
 4. **High-Quality Icons**: Use 1024x1024 PNG for best results
 5. **Clear Cache**: Clear browser cache when testing PWA features
 
-## Future Plans (Based on CleanQuest)
-
-Based on the CleanQuest setup, this could be enhanced with:
-- iOS support (Capacitor supports it)
-- More plugin presets (geolocation, filesystem, etc.)
-- Web-based configuration UI
-- Cloud build service
-- Template marketplace
-
 ## Troubleshooting
 
 ### Android SDK Not Found
