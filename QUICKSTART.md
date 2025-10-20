@@ -14,7 +14,7 @@ Get your first standalone mobile app running in 5 minutes!
 Open a terminal in the `pwa-builder` directory:
 
 ```bash
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 

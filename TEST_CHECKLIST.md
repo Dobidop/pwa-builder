@@ -7,7 +7,7 @@ Use this checklist to verify everything works before using in production.
 ### Test 1: Create a Test Project
 
 ```bash
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 
@@ -264,7 +264,7 @@ npm run build
 
 **Create a second project:**
 ```bash
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 

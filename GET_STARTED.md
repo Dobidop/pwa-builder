@@ -6,14 +6,14 @@ Your PWA-to-APK builder is ready! Here's how to use it.
 
 A complete tool that transforms web apps into standalone Android applications with minimal effort.
 
-**Location:** `C:\Project\pwa-builder`
+**Location:** `/path/to/pwa-builder`
 
 ## Quick Start (5 Minutes)
 
 ### 1. Create Your First App
 
 ```bash
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 
@@ -23,7 +23,7 @@ node create-pwa-app.js
 - App ID: `com.yourname.firstapp`
 - Description: `My first standalone app`
 
-This creates a new project in `C:\Project\pwa-builder\my-first-app`
+This creates a new project in `/path/to/pwa-builder/my-first-app`
 
 ### 2. Install Dependencies
 
@@ -69,7 +69,7 @@ adb install android/app/build/outputs/apk/debug/app-debug.apk
 ## Project Structure
 
 ```
-C:\Project\pwa-builder/
+/path/to/pwa-builder/
 │
 ├── create-pwa-app.js           ← Run this to create new projects
 ├── README.md                   ← Full documentation
@@ -288,7 +288,7 @@ This tool extracts and improves the build system from your CleanQuest project. I
 
 ```bash
 # Create your first app now!
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 

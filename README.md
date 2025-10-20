@@ -25,7 +25,7 @@ Think of it like `create-react-app` but for building standalone mobile apps from
 
 ```bash
 # Option 1: Run the creator script
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 
 # Option 2: Manual creation

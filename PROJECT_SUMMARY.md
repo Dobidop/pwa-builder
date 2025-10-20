@@ -7,7 +7,7 @@ A complete **PWA-to-APK Builder Tool** that allows semi-developers to easily cre
 ## Project Structure
 
 ```
-C:\Project\pwa-builder/
+/path/to/pwa-builder/
 │
 ├── create-pwa-app.js           # Main installer script (creates new projects)
 ├── package.json                # NPX package configuration
@@ -42,7 +42,7 @@ C:\Project\pwa-builder/
 
 ### 1. Project Creation
 ```bash
-cd C:\Project\pwa-builder
+cd /path/to/pwa-builder
 node create-pwa-app.js
 ```
 - Prompts user for app details
@@ -218,7 +218,7 @@ Before sharing with users:
 
 1. **Test the tool yourself:**
    ```bash
-   cd C:\Project\pwa-builder
+   cd /path/to/pwa-builder
    node create-pwa-app.js
    # Create a test project
    cd test-project
