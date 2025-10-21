@@ -1,4 +1,4 @@
-# PWA Builder
+# PWA to APK Builder
 
 Transform any web app into a standalone mobile application with one command!
 
